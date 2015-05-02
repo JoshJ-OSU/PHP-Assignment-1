@@ -114,7 +114,11 @@ if ($errorFlag == false) {
 			echo "<td>" . ($col * $row) . "</td>";
 		}
 	}
+	
+	echo "</table>";
+	
 }
+
 ?>
 </body>
 </html>

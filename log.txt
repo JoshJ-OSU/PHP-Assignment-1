@@ -1,0 +1,7 @@
+Start: Sat, 2 May 2015 10:40:00 -0700
+End: Sat, 2 May 2015 
+Tasks: Set up git repo, created initial src file and log file.  
+
+Start: Sat, 2 May 2015 07:00:00 -0700
+End: Sat, 2 May 2015 10:00:00 -0700
+Tasks: Read materials, watched videos.

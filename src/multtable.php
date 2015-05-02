@@ -3,7 +3,7 @@
 <head>
 	<meta charset="utf-8">
 	<title>Assignment-4 Part-1 multtable.php</title>
-	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="multtablestyle.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 
@@ -91,14 +91,30 @@ if ($errorFlag == false) {
 	}
 }
 
+//Print the table
 if ($errorFlag == false) {
-	echo "min-multiplicand = " . $min_multiplicand . "<br>";
-	echo "max-multiplicand = " . $max_multiplicand . "<br>";
-	echo "min-multiplier = " . $min_multiplier . "<br>";
-	echo "max-multiplier = " . $max_multiplier . "<br>";
-}
+	echo "<table>";
+	
+	//header row
+	echo "<thead>";
+	echo "<tr>";
+	echo "<th></th>";		//empty cell
+	
+	//fill header row with multipliers
+	for($col = $min_multiplier; $col <= $max_multiplier; $col++) {
+		echo "<th>" . $col . "</th>";
+	}
+	echo "</thead>";
 
+	echo "<tbody>";
+	for($row = $min_multiplicand; $row <= $max_multiplicand; $row++) {
+		echo "<tr>";
+		echo "<th>" . $row . "</th>";
+		for($col = $min_multiplier; $col <= $max_multiplier; $col++) {
+			echo "<td>" . ($col * $row) . "</td>";
+		}
+	}
+}
 ?>
-<p>Hello World</p>
 </body>
 </html>

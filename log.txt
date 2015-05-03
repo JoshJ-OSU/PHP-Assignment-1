@@ -1,6 +1,14 @@
+Start: Sat, 2 May 2015 13:51:00 -0700
+End: Sat, 2 May 2015 19:02:00 -0700
+Tasks: login.php, content1.php, content2.php completed.
+
+Start: Sat, 2 May 2015 13:51:00 -0700
+End: Sat, 2 May 2015 15:33:21 -0700
+Tasks: Loopback.php takes requests, correctly creates JSON string.
+
 Start: Sat, 2 May 2015 10:40:00 -0700
-End: Sat, 2 May 2015 
-Tasks: Set up git repo, created initial src file and log file.  
+End: Sat, 2 May 2015 13:51:00 -0700
+Tasks: Set up git repo, created initial src file and log file.  multtable.php works.
 
 Start: Sat, 2 May 2015 07:00:00 -0700
 End: Sat, 2 May 2015 10:00:00 -0700
